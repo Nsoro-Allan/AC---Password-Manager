@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #007BFF;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+/* Header Starts Here */
+header{
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img{
+    width: 4%;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.title .line{
+    margin-top: 5px;
+    width: 7%;
+    border-radius: 4px;
+    background: black;
+    padding: 3px;
+}
+
+/* Header Starts Here */
+
+/* Left Container Starts Here */
+.title .line1{
+    margin-top: 5px;
+    width: 15%;
+    border-radius: 4px;
+    background: black;
+    padding: 3px;
+}
+
+.left{
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline-color: #007BFF;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.799);
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.long-line{
+    padding: 0.1px;
+    background: black;
+    width: 100%;
+    margin-top: 10px;
+}
+/* Left Container Starts Here */
+
+
+/* Right Container Starts Here */
+.right{
+    width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#password-list {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+/* Right Container Ends Here */
+
+

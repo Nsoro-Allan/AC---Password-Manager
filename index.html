@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC - Passsword Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/icon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Main Container Starts Here -->
+     <header>
+        <div class="title">
+
+            <img src="./imgs/icon_64.png" alt="icon">
+            <h1>AC - Password Manager</h1>
+            <div class="line"></div>
+        
+        </div>
+     </header>
+    <!-- Main Container Ends Here -->
+    
+    <div class="container">
+
+     <!-- Left Container Starts Here -->
+     <div class="left">
+
+        <div class="title">
+    
+            <h1>Add your information</h1>
+            <div class="line1"></div>
+        
+        </div>
+
+        <form id="password-form">
+            <label for="website">Website:</label>
+            <input type="text" id="website" placeholder="Enter Your Website..." required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your Username..." required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your Password..." required>
+
+            <button type="button" id="add-password">Add Password</button>
+        </form>
+
+      </div>
+     <!-- Left Container Ends Here -->
+
+     <!-- Right Container Starts Here -->
+      <div class="right">
+        
+        <div class="title">
+    
+            <h1>View your information</h1>
+            <div class="line1"></div>
+        
+        </div>
+
+        <div id="password-list">
+            <!-- Passwords will be displayed here -->
+        </div>
+
+      </div>
+     <!-- Right Container Starts Here -->
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
